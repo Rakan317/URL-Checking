@@ -1,12 +1,13 @@
 # URL-Checking
-this repository might contains script which help detecting bad URLs 
+
+The suite of Python tools enhances scam detection and bolsters online security. These tools empower users to identify and thwart scams, safeguarding against online fraud.
 
 
-# SSL Certificate Checker
+# 1. SSL Certificate Checker
 
 This Python script, `SSLCC.py`, is designed to check the SSL certificate of a given URL and provide information about the certificate. It verifies whether the SSL certificate is valid and displays details such as issuer, subject, serial number, validity period, public key algorithm, and signature algorithm.
 
-# WHOIS Information Fetcher
+# 2. WHOIS Information Fetcher
 
 This Python script allows you to fetch WHOIS information for a given domain name and display relevant details such as creation date, modification date, and the entire WHOIS record.
 
