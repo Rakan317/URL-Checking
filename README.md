@@ -4,9 +4,11 @@ this repository might contains script which help detecting bad URLs
 
 # SSL Certificate Checker
 
-## Overview
-
 This Python script, `SSLCC.py`, is designed to check the SSL certificate of a given URL and provide information about the certificate. It verifies whether the SSL certificate is valid and displays details such as issuer, subject, serial number, validity period, public key algorithm, and signature algorithm.
+
+# WHOIS Information Fetcher
+
+This Python script allows you to fetch WHOIS information for a given domain name and display relevant details such as creation date, modification date, and the entire WHOIS record.
 
 
 # Author
