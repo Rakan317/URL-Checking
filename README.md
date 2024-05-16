@@ -19,12 +19,12 @@ The script requires Python 3.x to run. There are no external dependencies beyond
 To use the script, follow these steps:
 
 1. Make sure you have Python 3.x installed on your system.
-2. Download the `SSL_Certification_Cheker.py` script.
+2. Download the `SSLCC.py` script.
 3. Open a terminal or command prompt.
-4. Navigate to the directory containing the `SSL_Certification_Cheker.py` script.
+4. Navigate to the directory containing the `SSLCC.py` script.
 5. Run the script by executing the following command:
 
-python SSL_Certification_Cheker.py
+python SSLCC.py
 
 
 6. Enter the URL when prompted to check the SSL certificate.
@@ -45,10 +45,8 @@ The script performs the following tasks:
 
 Here is an example usage of the script:
 
-$ python SSL_Certification_Cheker.py
-
-$ Enter the URL to check SSL certificate (e.g., example[.]com): `example[.]com`
-
+$ python SSL_Certification_Cheker.py  
+$ Enter the URL to check SSL certificate (e.g., example[.]com): `example[.]com`  
 SSL Certificate information:  
 Issuer: CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US  
 Subject: CN=`www.example[.]com `  
@@ -59,8 +57,8 @@ Public Key Algorithm: rsaEncryption
 Signature Algorithm: sha256WithRSAEncryption  
 `hxxps://www.example[.]com` **has a valid SSL certificate.**
 
-$ python SSL_Certification_Cheker.py 
-Enter the URL to check SSL certificate (e.g., example[].com): `expired.badssl[.]com`   
+$ python SSL_Certification_Cheker.py   
+Enter the URL to check SSL certificate (e.g., example[].com): `expired.badssl[.]com`     
 Failed to retrieve SSL certificate for `hxxps://expired.badssl[.]com`.   
 Reason: **The certificate has expired.**    
 Please make sure the URL `hxxps://expired.badssl[.]com` is correct and accessible.   
